@@ -1,0 +1,38 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+#minimenu ul li{
+    float : left;
+    width : 25%;
+    height: 100%;
+    line-height: 50px;
+    text-align: center;
+    background-color : #98E0AD;
+    outline: 1px dotted rgb(109, 107, 107);
+}
+
+#minimenu ul li a {
+    display: block;
+}
+
+#minimenu ul li a:hover {
+    background-color: #138535;
+    color : #fff;
+}
+
+* {
+    margin : 0;
+    padding : 0;
+}
+body {
+    font: 17px 'Nanum Gothic', sans-serif;
+}
+
+a {
+    text-decoration : none;
+    color : #404040;
+}
+
+li {
+    list-style : none;
+}
