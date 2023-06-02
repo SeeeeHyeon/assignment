@@ -1,0 +1,10 @@
+@media only screen and (min-width: 480px) {
+    nav a {
+        float: left;
+        width: 30%;
+        margin-right: 5%;
+    }
+    nav li:last-child a {
+        margin-right: 0;
+    }
+}
